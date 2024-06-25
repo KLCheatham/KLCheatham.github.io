@@ -1,0 +1,67 @@
+body {
+    background-color: palegreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#intro {
+    color: black;
+    text-align: center;
+    font-family:cursive;
+    display: inline-block;
+    background-color: lightpink;
+    border-style: dotted;
+    border-color: purple;
+    height: auto;
+    width: 30%;
+    padding: 20px
+}
+
+#bio {
+    color: black;
+    text-align: center;
+    font-family:cursive;
+    display: inline-block;
+    background-color:rgb(234, 234, 22);
+    border-style: dotted;
+    border-color: orange;
+    height: auto;
+    width: 32%;
+    padding: 20px
+}
+
+#contact {
+    color: black;
+    text-align: center;
+    font-family:cursive;
+    float:right;
+    background-color:mediumturquoise;
+    border-style: dotted;
+    border-color: navy;
+    height:auto;
+    width: 30%;
+    padding: 20px;
+}
+
+p {
+    font-size: 29px;
+    padding: 10px;
+}
+
+button {
+    font-family: cursive;
+    font-size: 50px;
+    background-color:palegreen; 
+    color: black;
+    border-color: mediumaquamarine;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: lightpink;
+    cursor: pointer;
+    margin: 2px 2px;
+}
+
+h1 {
+    font-size: 40px;
+}
